@@ -1,0 +1,112 @@
+.container_header{
+  width: 1200px;
+  margin: auto;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+body{
+  margin-top: 0px;
+}
+
+#Anakin{
+  font-size: 70px;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+blockquote{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  width: 100%;
+  background: #444444;
+  color: white;
+  font-size: 50px;
+  line-height: 45px;
+  padding: 20px;
+  margin-left: -20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+blockquote::before {
+  content: '“';
+  padding: 10px;
+  font-size: 80px;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
+
+.upper_text{
+  font-size: 18px;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+h1{
+  position: absolute;
+  top: 200px;
+  left: 530px;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.container_text{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  line-height: 25px;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: outside;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+h3{
+  margin-bottom: -5px;
+  font-size: 25px;
+}
+
+.quotes_text{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  color: white;
+  font-size: 50px;
+  line-height: 55px;
+  padding: 20px;
+  margin-bottom: -20px; 
+  margin-top: -70px; 
+}
+
+hr{
+/*   margin: auto; */
+  color: black;
+  height: 4px;
+  width: 100%;
+  background: black;
+}
